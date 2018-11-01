@@ -38,6 +38,17 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.438);
 }
 
+.button {
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 3rem;
+  padding: .2rem .5rem;
+  margin: 1rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .social-media {
   /* display: flex; */
   padding:1rem 2rem;
