@@ -37,4 +37,14 @@
 .botom-border {
   border-bottom: 1px solid rgba(255, 255, 255, 0.438);
 }
+
+.social-media {
+  /* display: flex; */
+  padding:1rem 2rem;
+}
+
+.fa-facebook-f, .fa-instagram {
+  font-size: 1.5rem;
+  padding:0 1rem;
+}
 }
