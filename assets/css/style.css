@@ -34,6 +34,14 @@
 }
   display: flex;
   flex-direction: column;
+.header_mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: normal;
+  padding: 1rem 2rem;
+}
+
 .botom-border {
   border-bottom: 1px solid rgba(255, 255, 255, 0.438);
 }
