@@ -1,4 +1,7 @@
-#header {
+.header, .button {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
   background-image: url("../images/pizza.jpg");
   background-position: center;
   height: 80vh;
