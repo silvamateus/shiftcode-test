@@ -85,3 +85,8 @@
   width: 80%;
   padding-bottom: 1rem;
 }
+
+.button_access {
+  background-color: #155538;
+  padding: 1.5rem 5rem;
+}
