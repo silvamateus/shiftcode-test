@@ -11,6 +11,11 @@
   position: absolute;
 }
 
+.header_unblurred {
+  background-color: rgba(8, 8, 8, 0.445);
+  padding: 1rem;
+  filter: blur(0);
+}
   display: flex;
   flex-direction: column;
   padding: 1rem;
