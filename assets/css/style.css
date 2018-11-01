@@ -1,0 +1,8 @@
+#header {
+  background-image: url("../images/pizza.jpg");
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
