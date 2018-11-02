@@ -1,0 +1,138 @@
+.header, .button {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+.header_background, 
+.header_unblurred,
+.header_background::before {
+  height: 100vh;
+  width: 100%;
+}
+
+
+.header_unblurred,
+.header_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+
+}
+
+.header_background {
+  background-image: url("../images/pizza.jpg");
+  background-position: center;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  position: absolute;
+}
+
+.header_unblurred {
+  background-color: rgba(8, 8, 8, 0.445);
+  padding: 1rem;
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+
+.header_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4rem 2rem 0 2rem;
+}
+
+.header_top::after {
+  width: 21rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.438);
+  padding-top: 2rem; 
+  content: '';
+}
+
+.header_mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: normal;
+  padding: 1rem 2rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left-text {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.left-text > span, .header_mid {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 3rem;
+  padding: .2rem .5rem;
+  margin: 1rem;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.social-media {
+  /* display: flex; */
+  padding:1rem 2rem;
+}
+
+.fa-facebook-f, .fa-instagram {
+  font-size: 1.5rem;
+  padding:0 1rem;
+}
+.logo {
+  width: 15rem;
+  padding-bottom: 1rem;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.button_access {
+  background-color: #155538;
+  padding: 1.5rem 5rem;
+}
+
+
+@media (min-width: 422px) {
+  .logo {
+    width: 25rem;
+  }
+}
