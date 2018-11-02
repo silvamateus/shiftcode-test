@@ -5,7 +5,7 @@ It's a job application test for *Shift Code*
 
 ## First run
 
-Run yarn *or* yarn install to install the dev dependencies
+Run **`yarn` *or* `yarn install`** to install the dev dependencies
 
 ## Scripts
 
