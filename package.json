@@ -1,0 +1,18 @@
+{  
+  "scripts": {
+    "style": "yarn postcss ./assets/css/*.css -d ./dist/css/"
+  
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "browserslist": "^4.3.4",
+    "postcss-cli": "^6.0.1"
+  },
+  "postcss": {
+    "map": false,
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": "last 3 versions"
+}
