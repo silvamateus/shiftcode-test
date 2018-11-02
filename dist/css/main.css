@@ -26,7 +26,7 @@
 }
 
 .header_background {
-  background-image: url("../images/pizza.jpg");
+  background-image: url("../../assets/images/pizza.jpg");
   background-position: center;  
   background-size: cover;
   background-repeat: no-repeat;
